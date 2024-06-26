@@ -1,0 +1,176 @@
+    /*altertext begin*/
+    
+    .text_1 {
+      animation: text1;
+    }
+    .text_2 {
+      animation: text2;
+    }
+    .text_3 {
+        animation: text3;
+      }
+    .text_4 {
+        animation: text4;
+      }
+    .text_5 {
+        animation: text5;
+      }
+    .text_6 {
+        animation: text6;
+      }
+    .text_7{
+        animation: text7;
+      }
+    .text_8 {
+        animation: text8;
+      }
+    .text_1 {
+      overflow: hidden;
+      white-space: nowrap;
+      display: inline-block;
+      position: relative;
+      animation-duration: 15s;
+      animation-timing-function: steps(17, end);
+      animation-iteration-count: infinite;
+    }
+    .text_2 {
+      overflow: hidden;
+      white-space: nowrap;
+      display: inline-block;
+      position: relative;
+      animation-duration: 15s;
+      animation-timing-function: steps(17, end);
+      animation-iteration-count: infinite;
+    }
+    .text_3 {
+        overflow: hidden;
+        white-space: nowrap;
+        display: inline-block;
+        position: relative;
+        animation-duration: 15s;
+        animation-timing-function: steps(17, end);
+        animation-iteration-count: infinite;
+      }
+    .text_4 {
+        overflow: hidden;
+        white-space: nowrap;
+        display: inline-block;
+        position: relative;
+        animation-duration: 15s;
+        animation-timing-function: steps(17, end);
+        animation-iteration-count: infinite;
+      }
+      .text_5 {
+        overflow: hidden;
+        white-space: nowrap;
+        display: inline-block;
+        position: relative;
+        animation-duration: 15s;
+        animation-timing-function: steps(17, end);
+        animation-iteration-count: infinite;
+      }
+      .text_6 {
+        overflow: hidden;
+        white-space: nowrap;
+        display: inline-block;
+        position: relative;
+        animation-duration: 15s;
+        animation-timing-function: steps(17, end);
+        animation-iteration-count: infinite;
+      }
+      .text_7 {
+        overflow: hidden;
+        white-space: nowrap;
+        display: inline-block;
+        position: relative;
+        animation-duration: 15s;
+        animation-timing-function: steps(17, end);
+        animation-iteration-count: infinite;
+      }
+      .text_8 {
+        overflow: hidden;
+        white-space: nowrap;
+        display: inline-block;
+        position: relative;
+        animation-duration: 15s;
+        animation-timing-function: steps(17, end);
+        animation-iteration-count: infinite;
+      }
+      .text_1::after, .text_2::after, .text_3::after, .text_4::after, .text_5::after, .text_6::after, .text_7::after, .text_8::after {
+      content: "|";
+      position: absolute;
+      right: 0;
+      animation: caret infinite;
+      animation-duration: 1s;
+      animation-timing-function: steps(1, end);
+    }
+    @keyframes text1 {
+      0%, 20%, 30%, 40%, 50%, 60%, 70%, 80%, 100% {
+        width: 0;
+      }
+      12%, 18% {
+        width: 7em;
+      }
+    }
+    @keyframes text2 {
+     0%, 20%, 30%, 40%, 50%, 60%, 70%, 80%, 100% {
+            width: 0;
+          }
+      
+    22%, 28% {
+        width: 7em;
+      }
+    }
+    @keyframes text3 {
+        0%, 20%, 30%, 40%, 50%, 60%, 70%, 80%, 100% {
+            width: 0;
+          }
+        32%, 38% {
+          width: 7em;
+        }
+      }
+    @keyframes text4 {
+      0%, 20%, 30%, 40%, 50%, 60%, 70%, 80%, 100% {
+          width: 0;
+        }
+        
+        42%, 48% {
+          width: 7em;
+        }
+      }
+    @keyframes text5 {
+      0%, 20%, 30%, 40%, 50%, 60%, 70%, 80%, 100% {
+          width: 0;
+        }
+        52%, 58% {
+          width: 7em;
+        }
+      }
+      @keyframes text6 {
+        0%, 20%, 30%, 40%, 50%, 60%, 70%, 80%, 100% {
+            width: 0;
+          }
+        
+        62%, 68% {
+          width: 7em;
+        }
+      }@keyframes text7 {
+        0%, 20%, 30%, 40%, 50%, 60%, 70%, 80%, 100% {
+            width: 0;
+          }
+        72%, 78% {
+          width: 7em;
+        }
+      }
+      @keyframes text8 {
+        0%, 20%, 30%, 40%, 50%, 60%, 70%, 80%, 100% {
+            width: 0;
+          }
+        
+        82%, 88% {
+          width: 7em;
+        }
+      }
+      
+     /*end of altertext*/
+  

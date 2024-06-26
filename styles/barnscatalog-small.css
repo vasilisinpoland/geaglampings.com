@@ -1,0 +1,276 @@
+html,
+body {
+  margin: 0;
+  height: 100%;
+}
+body {
+  background-color: #f5f6f7;
+  color: #232632ff;
+  font-family: "Ubuntu Sans";
+  font-size: 12pt;
+  line-height: 1.2;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 100%;
+  }
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: #232632ff;
+    font-size: 16pt;
+    font-family: Oswald;
+}
+.menu a {
+  color: #232632ff;
+  font-size: 16pt;
+  font-family: Oswald;
+  text-decoration: none;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.menu a:visited {
+    color: #232632ff;
+    font-size: 16pt;
+    font-family: Oswald;
+    text-decoration: none;
+}
+.menu a:hover {
+  color: #232632ff;
+  font-size: 16pt;
+  font-family: Oswald;
+  text-decoration: underline;
+}
+.menu a:active {
+  color: #232632ff;
+  font-size: 16pt;
+  font-family: Oswald;
+  text-decoration: underline;
+}
+main {
+  line-height: 130%;
+  max-width: 95%;
+}  
+img {
+  max-width: 100%;
+  height: auto;
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+}
+
+a {
+  color: #427aa1;
+  font-size: 100%;
+}
+.header {
+    display: block;
+    width: 90%;
+    margin-bottom: 100px;
+}
+h1 {
+    font-family: Alegreya Sans SC;
+    text-decoration: uppercase;
+    background-color: #427AA1;
+    color: #ebf2fa;
+    font-size: 180%;
+    line-height: 1.4;
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+h2 {
+  font-family: Alegreya Sans SC;
+  text-decoration: uppercase;
+  font-size: 140%;
+  color: #427aa1;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+h3 {
+  font-family: Alegreya Sans SC;
+  text-decoration: uppercase;
+  color: #a5be00;
+  text-align: left;
+  margin-top: 50px;
+  margin-bottom: 40px;
+  margin-left: 30px;
+}
+h4 {
+  color: #232632ff;
+}
+
+.barnshero {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+.cta {
+  background-color: #ebf2fa;
+  color: #232632;
+  margin: 30px;
+  padding: 50px;
+  font-size: 110%;
+  line-height: 150%;
+  text-align: left;
+  max-width: 100%;
+}
+.cta h2 {
+  font-family: Alegreya Sans SC;
+  text-decoration: uppercase;
+  font-size: 140%;
+  color: #427aa1;
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+
+}
+.ctatext p {
+  font-size: 110%;
+  line-height: 1.4;
+  text-align: left;
+  max-width: 100%;
+  margin-bottom: 100px;
+}
+.ctabutton {
+  display: inline-block;
+  font-size: 110%;
+  text-decoration: uppercase;
+  background-color: #A5BE00;
+  color: #ebf2fa;
+  text-align: center;
+  padding: 20px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  margin-left: 0;
+  margin-right: 0;
+}
+.ctabutton2 {
+  display: inline-block;
+  font-size: 110%;
+  text-decoration: uppercase;
+  background-color: #427AA1;
+  color: #ebf2fa;
+  text-align: center;
+  padding: 20px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  margin-left: 0;
+  margin-right: 0;
+}
+.ctabutton:hover, .ctabutton2:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.ctabutton a {
+  color: #ebf2fa;
+  text-decoration: none;
+}
+.ctabutton2 a {
+  color: #ebf2fa;
+  text-decoration: none;
+}
+.ctabutton a:hover {
+  color: #ebf2fa;
+  text-decoration: underline;
+}
+.ctabutton2 a:hover {
+  color: #ebf2fa;
+  text-decoration: underline;
+}
+.icons, .icons-cat {
+  display: block;
+  font-size: 100%;
+  max-width: 80%;
+  justify-content: center;
+  margin: 20px;
+}
+.icons img{
+  position: relative;
+  max-width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.catalog {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 70px;
+}
+.icons-cat img{
+  position: relative;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.material {
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+.material img {
+    position: inherit;
+
+    max-width: 300px;
+    max-height: 400px;
+    margin: 20px;
+    
+  }
+.quote {
+  font-size: 110%;
+  background-color: #ebf2fa;
+  padding: 40px;
+}
+
+.splide {
+  margin-bottom: 0px;
+  margin-top: 80px;
+}
+.houseplan {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 80%;
+  max-height: 400px;
+}
+.footer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 0px;
+  font-size: 14pt;
+  text-align: center;
+  background-color: #232632ff;
+  color: white;
+  padding-left: 30px;
+  padding-right: auto;
+  padding-top: 20px;
+  padding-bottom: 30px;
+}
+.footerlist {
+  display: block;
+  text-align: left;
+  font-size: 12pt;
+  text-align: center;
+  background-color: #232632ff;
+  color: white; 
+  margin: 0%;
+  padding: 0%;
+}
+.footerlist ul {
+  list-style-type: none;
+}
