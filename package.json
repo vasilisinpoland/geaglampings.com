@@ -1,0 +1,15 @@
+{
+    "name": "my-nextjs-app",
+    "version": "1.0.0",
+    "scripts": {
+      "dev": "next dev",
+      "build": "next build",
+      "start": "next start"
+    },
+    "dependencies": {
+      "next": "13.0.0",  // Replace with the latest version
+      "react": "18.0.0",  // Replace with the latest version
+      "react-dom": "18.0.0"  // Replace with the latest version
+    }
+  }
+      
