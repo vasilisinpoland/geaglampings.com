@@ -1,13 +1,16 @@
-<html lang="en-US">
-  <head>
-    <title>Γιουρτ 25 τ.μ. | GEA Glampings</title>
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Γιούρτα 25 τμ - GEA Glampings</title>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <meta
       data-hid="description"
       name="description"
       property="”og:description”"
-      content="Το γιουρτ των 25 τετραγωνικών μέτρων είναι ιδανικό για μικροσκοπικούς χώρους. Με μόλις 6 μέτρα διάμετρο, το yurt των 25 τετραγωνικών μέτρων ταιριάζει τέλεια σε κάθε ελληνικό ελαιώνα, φέρνοντας τον τουρίστα στην πραγματική ελληνική φύση και στο μέρος όπου άλλες κατασκευές δεν χωρούν."
+      content="Η GEA Glampings είναι ελληνική εταιρεία κατασκευής γιουρτ, καμπινών και άλλων πολυτελών μονάδων glamping. Οικολογικές πολυτελείς άνετες κατοικίες για εντυπωσιακή και μόνιμη διαβίωση."
     />
     <meta property="og:image" content="/GEA_logo_main.png" />
     <meta data-hid="og:locale" property="og:locale" content="en_US" />
@@ -35,189 +38,185 @@
     <link rel="stylesheet" href="styles/barnstyles-large.css" media="(min-width: 90em)" />
     <!-- Served to screens that are at least 120em wide -->
     <link rel="stylesheet" href="styles/barnstyles-large.css" media="(min-width: 120em)" />
-  <style>
-    .gallery {
+
+    <style>
+        .container {
+            padding: 0 10%;
+        }
+        .description {
+            text-align: center;
+            padding: 20px 0;
+        }
+        .slider {
+            width: 100%;
+            max-width: 800px; /* Set max-width to limit the size */
+            margin: 0 auto;
+            overflow: hidden; /* Ensure images are cropped */
+            position: relative;
+        }
+        .slider img {
+            width: 100%;
+            height: 400px; /* Set a fixed height */
+            object-fit: cover; /* Crop the images inside the slider */
+        }
+        .thumbnails {
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+        }
+        .thumbnails img {
+            width: 100px;
+            height: auto;
+            margin: 0 5px;
+            cursor: pointer;
+        }
+        .calculator {
+            padding: 20px 0;
+        }
+        .calculator h3 {
+            text-align: center;
+        }
+        .calculator form {
             display: flex;
             flex-direction: column;
-            align-items: center;
+            align-items: flex-start;
         }
-        .main-image {
-            width: 80%;
-            max-width: 600px;
-            margin-bottom: 20px;
-            border: 2px solid #ccc;
-            border-radius: 10px;
+        .calculator .option {
+            margin: 10px 0;
         }
-        .thumbnail-container {
-            display: flex;
-            gap: 10px;
-            overflow-x: auto;
+        .calculator .option label {
+            margin-right: 10px;
         }
-        .thumbnail-container img {
-            width: 100px;
-            height: 100px;
-            object-fit: cover;
-            cursor: pointer;
-            border: 2px solid transparent;
+        .calculator .tooltip {
+            display: inline-block;
+            position: relative;
+        }
+        .calculator .tooltip .tooltiptext {
+            visibility: hidden;
+            width: 120px;
+            background-color: black;
+            color: #fff;
+            text-align: center;
             border-radius: 5px;
+            padding: 5px 0;
+            position: absolute;
+            z-index: 1;
+            bottom: 125%; 
+            left: 50%;
+            margin-left: -60px;
+            opacity: 0;
+            transition: opacity 0.3s;
         }
-        .thumbnail-container img:hover,
-        .thumbnail-container img.active {
-            border-color: #333;
+        .calculator .tooltip:hover .tooltiptext {
+            visibility: visible;
+            opacity: 1;
         }
-  </style>
-  </head>
-  
-  <body>
-    <main>
-      <header>
-        <div>
-        <img src="GEA_logo_main.png" class="logo">
-        </div>
-        <div class="menu">
-          <a href="index.html" class="menu" alt="GEA Glampings - Ελληνική εταιρεία κατασκευής γιουρτ, καμπινών και άλλων πολυτελών μονάδων glamping. " target="_self">HOME</a> | 
-          <a href="gea-yurt-25.html" class="menu" alt="GEA Glampings | ΓΙΟΥΡΤΕΣ | ΓΙΟΥΡΤΑ 25 τ.μ." target="_self">ΓΙΟΥΡΤΑ 25 τ.μ.</a> | 
-          <a href="gea-yutr-35.html" class="menu" alt="GEA Glampings | ΓΙΟΥΡΤΕΣ | ΓΙΟΥΡΤΑ 35 τ.μ." target="_self">ΓΙΟΥΡΤΑ 35 τ.μ.</a> | 
-          <a href="gea-yurt-50.html" class="menu" alt="GEA Glampings | ΓΙΟΥΡΤΕΣ | ΓΙΟΥΡΤΑ 50 τ.μ." target="_self">ΓΙΟΥΡΤΑ 50 τ.μ.</a> | 
-          <a href="gea-yurt-70.html" class="menu" alt="GEA Glampings | ΓΙΟΥΡΤΕΣ | ΓΙΟΥΡΤΑ 70 τ.μ." target="_self">ΓΙΟΥΡΤΑ 70 τ.μ.</a>
-
-        </div>
-    </header>
-        
-        <h1>Το γιουρτ των 25 τετραγωνικών μέτρων είναι ιδανικό για μικροσκοπικούς χώρους. </h1>
-          <h2>Με μόλις 6 μέτρα διάμετρο, το yurt των 25 τετραγωνικών μέτρων ταιριάζει τέλεια σε κάθε ελληνικό ελαιώνα, φέρνοντας τον τουρίστα στην πραγματική ελληνική φύση και στο μέρος όπου άλλες κατασκευές δεν χωρούν.</h2>
-          <div class="gallery">
-            <img src="imgs/y25/gea-glaampings-yurt-25-001.JPG" id="mainImage" class="main-image" alt="Main Image">
-            <div class="thumbnail-container">
-                <img src="imgs/y25/gea-glaampings-yurt-25-001.JPG" class="thumbnail active" onclick="changeImage(this)" alt="GEA Glampings 
-                ">
-                <img src="image2.jpg" class="thumbnail" onclick="changeImage(this)" alt="Thumbnail 2">
-                <img src="image3.jpg" class="thumbnail" onclick="changeImage(this)" alt="Thumbnail 3">
-                <img src="image4.jpg" class="thumbnail" onclick="changeImage(this)" alt="Thumbnail 4">
-                <img src="image5.jpg" class="thumbnail" onclick="changeImage(this)" alt="Thumbnail 5">
-            </div>
-        </div>
-        
-        <script>
-            function changeImage(element) {
-                const mainImage = document.getElementById('mainImage');
-                mainImage.src = element.src;
-        
-                const thumbnails = document.querySelectorAll('.thumbnail');
-                thumbnails.forEach(thumbnail => thumbnail.classList.remove('active'));
-        
-                element.classList.add('active');
-            }
-        </script>
-        
-        
-        
-          <section class="description">
-            <p>Model Barn XS jest najmniejszym z oferty naszych standardowych Barnów BARNHOMES. Barn XS - to dom który stawia się bez pozwolenia na budowę, bo ma 35m2 i podlega jedynie procedurze zgłoszenia budowy, co ułatwia i przyspiesza proces biurokracji, oraz obniża koszty samej budowy. </p>
-            <p class="quote">Barn XS to Dom dla młodej osoby, albo pary - swego rodzaju “kawalerka” wśród Barnów. </p>
-            <p>Charakterystycznymi zaletami Barnu XS można wyznaczyć:<br>
-            <ul>
-                <li>Niski koszt budowy. Przyłożyliśmy wszelkich starań żeby dać możliwość każdemu przeprowadzić się do własnego domu za niewielkie pieniądze, dostępne w ofertach pożyczek gotówkowych banków Polski.</li>
-                <li>Dom bez pozwolenia na budowę. Minimum papierów, minimum czekania.</li>
-                <li>Możliwość rozbudowy. W momencie kiedy rodzina się powiększa i zaczyna brakować przestrzeni, Barn XS może stać początkiem większego Barnu. Do Barnu XS można dobudować na przykład model S lub M, lub połączyć kilka modeli na raz, na przykład w układzie XS-S-XS. W ten sposób powstanie nowy, większy, ale tak samo - przytulny Barn o przestrzeni od 100 metrów kwadratowych lub więcej.</li>
-                <li>Idealny dom dla osób starszych. Barn XS może stać się świetnym miejscem do zamieszkania dla osób starszych, ponieważ jest domem parterowym, i nie ma potrzeby przemieszczania się między piętrami . </li>
-                <li>Domki Barn XS świetnie nadają się na domki turystyczny, lub letniskowe, idealnie wpisują się w każdy krajobraz czy to morski, leśny a nawet górzysty. </li>
-            </ul></p>
-        </section>
-        <section class="cta">
-            <h2>Masz pytania? Zadzwoń</h2>
-            <p class="ctatext">
-              Zadzwoń do nas teraz, i my odpowiemy na wszystkie twoje pytania oraz przygotujemy korzystną ofertę na <strong>twój nowy Barn</strong>.
-            </p>
-            <p align="center">
-              <a href="tel:+48666699420" class="ctabutton">Zadzwoń +48 666 699 420</a>
-            </p>
-        </section>
-        <h1>Wymiary i wnętrza</h1>
-        <section class="description">
-            <img src="imgs/barn_xs/barnhomes_xs_plan_01.png" class="houseplan"/>
-            <p>Barn XS - to całoroczny ciepły energooszczędny domek, który może byc wykonany wi wielu różnych wymiarach.</p>
-            <p>Barn XS może wstać na fundament 5x7 metrów, albo 5x10 lub 7x12, lub w każdym dowolnym wymiarze.</p>
-
-
-        </section>
-        <!--Materials begin-->
-        <h1>
-          Technologia i materiały
-        </h1>
-        <div style="width: 100%; height: 400px; background-image: url('imgs/barnhomes_prefab'); background-repeat: norepeat; background-size: cover; background-position: center;  margin-bottom: 50px;"></div>
-        
-        <p class="regular">
-          Prefabrykowane domy BARNHOMES są zbudowane w technologii szkieletowej z użyciem systemowych rozwiązań i ekologicznych materiałów niemieckiego producenta Steico. Prefabrykacja pozwala oszczędzić czas realizacji projektu, oraz zminimalizować ryzyko jakichkolwiek błędów konstrukcyjnych pod czas budowy. Montaż doma BARNHOMES zajmuję najczęściej od tygodnia do 40 dni, w zależności od wielkości projektu oraz jego skomplikowaności.
-        </p>
-       <section class="catalog" >
-
-        <div class="icons">
-        <h2>Przekrój ściany</h2>
-        <img src="imgs/elements/barnhomes_wall_section.png" class="icons"/>
-        <p class="regular">Domy BARNHOMES są ocieplone matami z włókna drzewnego Steico Flex i Steico Protect które są ekologiczne, ciepłe i otwarte dyfuzyjnie, co gwarantuje naturalne oddychanie ścian. Podstawowa model ściany BARNHOMES zawierz 200 mm ocieplenia w matach Steico Flex, oraz 40 mm Steico Protect, co pozwala osiągnąć <strong>współczynnik przenikania ciepła U = 0.15 W/m2K</strong>. </p>
-        
-        </div>
-
-        <div class="icons">
-        <h2>Okna i drzwi</h2>
-        <img src="imgs/elements/barnhomes_windows.png" class="icons"/>
-        <p class="regular">Wszystkie okna oraz witryny w BARNHOMES mają nowoczesne energooszczędne dwukomorowe zespolone szyby, z <strong>Ug = 0.5 W/m2K</strong>. To pozwala nam instalować panoramiczne okna bez wychlodzenia budynku.</p>
-        </div>
-        
-        <div class="icons">
-        <h2>Wentylacja z odzyskiem ciepła</h2>
-        <img src="imgs/elements/barnhomes_ventilation.png" class="icons"/>
-        <p class="regular">Domy BARNHOMES są wyposażone w nowoczesne systemy wentylacyjne z odzyskiem ciepła. <strong>System wentylacji BARNHOMES pozwala odzyskiwać do 82% ciepła</strong> podczas wietrzenia domu, co zapewnia oszczędność w rachunkach za ogrzewanie oraz czyste filtrowane powietrze 24 godziny na dobę.</p> 
-        
-        </div>
-        
-        <div class="icons">
-        <h2>Ogrzewanie</h2>
-        <img src="imgs/elements/barnhomes_heating.png" class="icons"/>
-        <p class="regular">
-          Domy BARNHOMES mają kilka opcyj ogrzewania - dla każdego klienta, dla każdego budżeta, dla każdego klimata. 
-        </p>
-        </div>
-        <div class="icons">
-        <h2>Wykończenia</h2>
-        <img src="imgs/elements/barnhomes_elevation.png" class="icons"/>  
-        <p class="regular">
-          W standartowej kompektacji domy BARNHOMES są wykończone blaszanym panelem "Hight Tech" w kolorze antracyt od Polskiego producenta Blachotrapez. </p>
-        <p class="regular">
-          Na życzenie klienta istnieje mozliwość wykończenia elewacyj drewnem albo pod tynk.
-        </p>
-        
-      </div>
-    </section>
-      <!--endof materials-->
-      <!--cta2-->
-      <section class="cta">
-        <h2>Pomożemy ciebie wybrać twój idealny dom</h2>
-        <p class="ctatext">
-          Każdy Barn BARNHOMES jest unikalny. Każdy model może występować w różnych wymiarach. Każde wnętrze może być stworzone zgodnie z duszą wlasciciela.
-        </p>
-        <p align="right">
-          <span class="ctabutton2"><a href="mailto:zamowienia@barnhomes.pl" >Skontaktuj się z nami</a></span>
-        </p>
-      </section> <!--endof cta2-->
-      <section class="footer">
-        <p>
-          &copy; BARNHOMES.pl<br>
-          <a href="tel:+48 666 699 420" style="color: white; text-decoration: none;">+48 666 699 420</a><br>
-          <a href="tel:+48 575 358 876" style="color: white; text-decoration: none;">+48 575 358 876</a><br>
-          <a href="mailto:zamowienia@barnhomes.pl" style="color: white;">zamowienia@barnhomes.pl</a>
-        </p>            
-      
-
-    </section>
-
-    </main>
-    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
+    </style>
     <script>
-      new Splide(".splide", {
-        autoplay: true,
-      }).mount();
-    </script>   
+        document.addEventListener("DOMContentLoaded", function() {
+            const thumbnails = document.querySelectorAll('.thumbnails img');
+            const mainImage = document.querySelector('.slider img');
+
+            thumbnails.forEach(thumbnail => {
+                thumbnail.addEventListener('click', function() {
+                    mainImage.src = this.src;
+                });
+            });
+
+            const priceCalculator = document.getElementById('priceCalculator');
+            const result = document.getElementById('result');
+            const basePrice = 10570;
+
+            priceCalculator.addEventListener('change', function() {
+                let totalPrice = basePrice;
+                const flooring = document.querySelector('input[name="flooring"]:checked').value;
+                const bathroom = document.querySelector('input[name="bathroom"]:checked').value;
+                const stairs = document.querySelector('input[name="stairs"]:checked').value;
+                const deck = document.querySelector('input[name="deck"]:checked').value;
+                const pergola = document.querySelector('input[name="pergola"]:checked').value;
+
+                totalPrice += parseInt(flooring) + parseInt(bathroom) + parseInt(stairs) + parseInt(deck) + parseInt(pergola);
+
+                result.textContent = `Συνολική Τιμή: ${totalPrice} EUR`;
+            });
+        });
+    </script>
+</head>
+<body>
+    <div class="container">
+        <section class="description">
+            <h2>Γιούρτα 25 τμ</h2>
+            <p>Ιδανική για δύο άτομα, αυτή η γιούρτα προσφέρει άνεση και πολυτέλεια.</p>
+        </section>
+        <section class="slider">
+            <img src="imgs/y25/gea-glampings-yurt-25-floor-plan-001.png" alt="Γιούρτα 25 τμ">
+            <div class="thumbnails">
+                <img src="imgs/y25/gea-glampings-yurt-25-floor-plan-001.png" alt="thumbnail 1">
+                <img src="imgs/y25/gea-glampings-yurt-25-floor-plan-002.png" alt="thumbnail 2">
+                <img src="imgs/y25/gea-glaampings-yurt-25-001.JPG" alt="thumbnail 3">
+                <img src="imgs/y25/gea-glaampings-yurt-25-002.JPG" alt="thumbnail 4">
+                <img src="imgs/y25/gea-glaampings-yurt-25-003.JPG" alt="thumbnail 5">
+            </div>
+        </section>
+        <section class="calculator">
+            <h2>Υπολογιστής Τιμής</h2>
+            <form id="priceCalculator">
+                <div class="option">
+                    <label>Σύστημα δαπέδου:</label>
+                    <label class="tooltip"><input type="radio" name="flooring" value="1000" checked> Δάπεδο 1 (1000 EUR)
+                        <span class="tooltiptext">Όταν η γιούρτα εγκαθίσταται σε επίπεδη σκληρή επιφάνεια.</span>
+                    </label>
+                    <label class="tooltip"><input type="radio" name="flooring" value="4080"> Δάπεδο 2 (4080 EUR)
+                        <span class="tooltiptext">Όταν κατασκευάζουμε την πλατφόρμα σε παρθένο έδαφος.</span>
+                    </label>
+                </div>
+                <div class="option">
+                    <label>Χρειάζεστε μπάνιο;</label>
+                    <label><input type="radio" name="bathroom" value="0" checked> Όχι</label>
+                    <label><input type="radio" name="bathroom" value="2200"> Ναι (2200 EUR)</label>
+                </div>
+                <div class="option">
+                    <label>Χρειάζεστε σκαλοπάτια εισόδου;</label>
+                    <label><input type="radio" name="stairs" value="0" checked> Όχι</label>
+                    <label><input type="radio" name="stairs" value="400"> Ναι (400 EUR)</label>
+                </div>
+                <div class="option">
+                    <label>Χρειάζεστε βεράντα;</label>
+                    <label><input type="radio" name="deck" value="0" checked> Όχι</label>
+                    <label><input type="radio" name="deck" value="1200"> Ναι, βεράντα 3x3 (1200 EUR)</label>
+                    <label><input type="radio" name="deck" value="2100"> Ναι, βεράντα 4x4 (2100 EUR)</label>
+                </div>
+                <div class="option">
+                    <label>Χρειάζεστε πέργκολα πάνω από τη βεράντα;</label>
+                    <label><input type="radio" name="pergola" value="0" checked> Όχι</label>
+                    <label><input type="radio" name="pergola" value="1200"> Ναι, πέργκολα 3x3 (1200 EUR)</label>
+                    <label><input type="radio" name="pergola" value="2100"> Ναι, πέργκολα 4x4 (2100 EUR)</label>
+                </div>
+            </form>
+            <h1 id="result">Συνολική Τιμή: 10570 EUR</h1>
+        </section>
+                  <!--cta2-->
+                  <section class="cta">
+                    <h2>Θα σας βοηθησουμε να επιλεξετε το τελειο γιουρτ σας</h2>
+                    <p class="ctatext">
+                      Κάθε γιουρτ είναι μοναδικό. Κάθε μοντέλο μπορεί να βρεθεί σε διάφορες διαμορφώσεις και εφαρμογές. Οποιοδήποτε εσωτερικό μπορεί να δημιουργηθεί σύμφωνα με την ψυχή του ιδιοκτήτη.</p>
+                    <p align="right">
+                      <span class="ctabutton2"><a href="mailto:sales@geaglampings.com" >επικοινωνήστε μαζί μας</a></span>
+                    </p>
+                  </section> <!--endof cta2-->
+    
+    <section class="footer">
+      <p>
+        &copy; GEAGLAMPINGS.COM<br>
+        Εδρα: 70200, Φανερωμένη, Κρήτη, Ελλάδα<br>                      
+        <a href="tel:+306983711159" style="color: white; text-decoration: none;">+30 698 371 11 59</a><br>
+        <a href="mailto:sales@geaglampings.com" style="color: white;">sales@geaglampings.com</a><br>
+        <a href="https://facebook.com/geaglampings" alt="GEA Glampings FACEBOOK page"><img src="imgs/fb-icon.png" width="30px" height="30px"></a>
+        <a href="https://instagram.com/geaglampings" alt="GEA Glampings Instagram"><img src="imgs/insta-icon.png" width="30px" height="30px"></a>
+      </p>            
+    
+
+  </section>
+</div>
 </body>
 </html>
